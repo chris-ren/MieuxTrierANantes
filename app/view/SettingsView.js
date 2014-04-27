@@ -1,4 +1,4 @@
-Ext.define('Dinmu.view.SettingsView', {
+Ext.define('MieuxTrierANantes.view.SettingsView', {
     extend: 'Ext.form.Panel',
     xtype: 'settingsview',
     requires: [

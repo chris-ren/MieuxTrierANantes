@@ -1,8 +1,8 @@
-Ext.define('Dinmu.store.Settings', {
+Ext.define('MieuxTrierANantes.store.Settings', {
 	extend: 'Ext.data.Store',
-	requires: ['Dinmu.model.Setting'],
+	requires: ['MieuxTrierANantes.model.Setting'],
     config: {
-    	model: 'Dinmu.model.Setting',
+    	model: 'MieuxTrierANantes.model.Setting',
     	autoLoad: true
 	}
 });

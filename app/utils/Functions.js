@@ -1,4 +1,4 @@
-Ext.define('Dinmu.utils.Functions', {
+Ext.define('MieuxTrierANantes.utils.Functions', {
   	singleton: true,
 	//copy and paste these contents into Utils.Functions static class.
 
@@ -22,7 +22,7 @@ Ext.define('Dinmu.utils.Functions', {
 	and load all the settings. When there are settings saved we can prefill 
 	the form based on the information. We check if the city and country values 
 	are available and start requesting the weather information based on these arguments. 
-	See Dinmu.utils.Functions.getWeather(city + " " + country);. 
+	See MieuxTrierANantes.utils.Functions.getWeather(city + " " + country);. 
 	When city and country are not set or when there is no settings data available at all, 
 	we will load the weather information based on geolocation. 
 	At the end we can remove the loading mask from the Ext.Viewport.
@@ -63,7 +63,7 @@ Ext.define('Dinmu.utils.Functions', {
 					if (city && country) {
 						if(country == "US" || country == "USA") country = "United States Of America";
 						
-						Dinmu.utils.Functions.getWeather(city + " " + country);
+						MieuxTrierANantes.utils.Functions.getWeather(city + " " + country);
 					} else {
 						//There are no city settings saved,
 						//get location from Geolocation.
@@ -104,7 +104,7 @@ Ext.define('Dinmu.utils.Functions', {
 			success: function(position) {
 				var place = position.coords.latitude + "," + position.coords.longitude;
 				//console.log(place);
-				Dinmu.utils.Functions.getWeather(place);
+				MieuxTrierANantes.utils.Functions.getWeather(place);
 				Ext.Viewport.unmask();
 			},
 			failure: function() {
@@ -123,7 +123,7 @@ Ext.define('Dinmu.utils.Functions', {
 		Ext.data.JsonP.request({
 			url: '//api.worldweatheronline.com/free/v1/weather.ashx',
 			params: {
-				key: Dinmu.utils.Functions.API_KEY,
+				key: MieuxTrierANantes.utils.Functions.API_KEY,
 				q: place,
 				format: 'json',
 				num_of_days: 1
@@ -133,7 +133,7 @@ Ext.define('Dinmu.utils.Functions', {
 				Ext.Viewport.unmask();
 				try {
 					var weather = result.data.weather;
-					Dinmu.utils.Functions.createTemplate(weather[0]);
+					MieuxTrierANantes.utils.Functions.createTemplate(weather[0]);
 
 				} catch (e) {
 					if(result.data.error){

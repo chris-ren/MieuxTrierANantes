@@ -1,4 +1,4 @@
-Ext.define('Dinmu.model.Setting', {
+Ext.define('MieuxTrierANantes.model.Setting', {
     extend: 'Ext.data.Model',
     requires: ['Ext.data.identifier.Uuid'],
     config: {

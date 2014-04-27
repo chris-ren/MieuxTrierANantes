@@ -74,10 +74,7 @@
         {
             "path": "resources/css/app.css",
             "update": "delta"
-        },
-		{   "path": "resources/css/leaflet.css"   },
-        {   "path": "resources/css/leaflet.ie.css"   },
-        {   "path": "resources/css/mieuxtrieranantes.css"   }
+        }
     ],
 
     /**
@@ -108,9 +105,7 @@
     "resources": [
         "resources/images",
         "resources/icons",
-        "resources/startup",
-        "resources/lib",
-        "resources/datas"
+        "resources/startup"
     ],
 
     /**
@@ -136,5 +131,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "e7513630-aa8a-4013-982f-f047609936d0"
+    "id": "8e26d076-f599-4877-a26b-19032c166224"
 }

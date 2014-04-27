@@ -1,8 +1,8 @@
-Ext.define('Dinmu.controller.Main', {
+Ext.define('MieuxTrierANantes.controller.Main', {
     extend: 'Ext.app.Controller',
     
     config: {
-        stores: 'Dinmu.store.Settings',
+        stores: 'MieuxTrierANantes.store.Settings',
         refs: {
             mainView: 'main',
             settingsView: 'settingsview',
@@ -40,7 +40,7 @@ Ext.define('Dinmu.controller.Main', {
     * with the content of the form. 
     * Next it validates the record. If it's invalid, it will showcase a
     * messagebox with error messages, else it runs the static method
-    * Dinmu.utils.Functions.loadData() for loading the weather data.
+    * MieuxTrierANantes.utils.Functions.loadData() for loading the weather data.
     * Also don't forget to hide the loading throbber.
     */
      onRefresh: function() {
@@ -56,7 +56,7 @@ Ext.define('Dinmu.controller.Main', {
         store.removeAll();
         store.sync();
 
-        var model = Ext.create("Dinmu.model.Setting", {});
+        var model = Ext.create("MieuxTrierANantes.model.Setting", {});
         this.getSettingsView().updateRecord(model);
         var errors = model.validate();
 
@@ -70,7 +70,7 @@ Ext.define('Dinmu.controller.Main', {
         } else {
             store.add(model.getData());
             store.sync();
-            Dinmu.utils.Functions.loadData();
+            MieuxTrierANantes.utils.Functions.loadData();
         }
 
         Ext.Viewport.unmask();
@@ -91,7 +91,7 @@ Ext.define('Dinmu.controller.Main', {
             this.getFieldCountry().enable();
             this.getFieldUnits().enable();
 
-             //Dinmu.utils.Functions.loadData();
+             //MieuxTrierANantes.utils.Functions.loadData();
         } else {
             this.getFieldCity().disable();
             this.getFieldUnits().disable();
@@ -121,6 +121,6 @@ Ext.define('Dinmu.controller.Main', {
      */
     launch: function(app) {
         this.getMainView().setActiveItem(1);
-        Dinmu.utils.Functions.loadData();
+        MieuxTrierANantes.utils.Functions.loadData();
     }
 });

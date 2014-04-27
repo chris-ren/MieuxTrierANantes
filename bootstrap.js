@@ -5,7 +5,6 @@
  * metadata-driven class system features 
  */
 Ext.Loader.addClassPathMappings({
-  "Dinmu": "app",
   "Ext": "touch/src",
   "Ext.device.Purchases.Product": "touch/src/device/purchases/Sencha.js",
   "Ext.device.filesystem.DirectoryEntry": "touch/src/device/filesystem/HTML5.js",
@@ -21,11 +20,6 @@ Ext.Loader.addClassPathMappings({
   "MieuxTrierANantes": "app"
 });
 Ext.ClassManager.addNameAlternateMappings({
-  "Dinmu.controller.Main": [],
-  "Dinmu.model.Setting": [],
-  "Dinmu.store.Settings": [],
-  "Dinmu.utils.Functions": [],
-  "Dinmu.view.SettingsView": [],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],
   "Ext.AbstractPlugin": [],
@@ -767,15 +761,20 @@ Ext.ClassManager.addNameAlternateMappings({
   "MieuxTrierANantes.controller.GeoController": [],
   "MieuxTrierANantes.controller.HomeCollectModsController": [],
   "MieuxTrierANantes.controller.InformationsController": [],
+  "MieuxTrierANantes.controller.Main": [],
   "MieuxTrierANantes.controller.StructuresController": [],
   "MieuxTrierANantes.controller.TrisacsController": [],
   "MieuxTrierANantes.model.HomeCollectModModel": [],
+  "MieuxTrierANantes.model.Setting": [],
   "MieuxTrierANantes.model.StructureModel": [],
   "MieuxTrierANantes.store.HomeCollectModStore": [],
+  "MieuxTrierANantes.store.Settings": [],
   "MieuxTrierANantes.store.StructureGeoStore": [],
   "MieuxTrierANantes.store.StructureStore": [],
   "MieuxTrierANantes.store.TrisacStore": [],
+  "MieuxTrierANantes.utils.Functions": [],
   "MieuxTrierANantes.view.Main": [],
+  "MieuxTrierANantes.view.SettingsView": [],
   "MieuxTrierANantes.view.about.Description": [],
   "MieuxTrierANantes.view.collectMod.CollectMods": [],
   "MieuxTrierANantes.view.collectMod.CollectModsButtonsPanel": [],
@@ -821,13 +820,6 @@ Ext.ClassManager.addNameAlternateMappings({
   "MieuxTrierANantes.view.trisac.Trisacs": []
 });
 Ext.ClassManager.addNameAliasMappings({
-  "Dinmu.controller.Main": [],
-  "Dinmu.model.Setting": [],
-  "Dinmu.store.Settings": [],
-  "Dinmu.utils.Functions": [],
-  "Dinmu.view.SettingsView": [
-    "widget.settingsview"
-  ],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],
   "Ext.AbstractPlugin": [],
@@ -1787,16 +1779,23 @@ Ext.ClassManager.addNameAliasMappings({
   "MieuxTrierANantes.controller.GeoController": [],
   "MieuxTrierANantes.controller.HomeCollectModsController": [],
   "MieuxTrierANantes.controller.InformationsController": [],
+  "MieuxTrierANantes.controller.Main": [],
   "MieuxTrierANantes.controller.StructuresController": [],
   "MieuxTrierANantes.controller.TrisacsController": [],
   "MieuxTrierANantes.model.HomeCollectModModel": [],
+  "MieuxTrierANantes.model.Setting": [],
   "MieuxTrierANantes.model.StructureModel": [],
   "MieuxTrierANantes.store.HomeCollectModStore": [],
+  "MieuxTrierANantes.store.Settings": [],
   "MieuxTrierANantes.store.StructureGeoStore": [],
   "MieuxTrierANantes.store.StructureStore": [],
   "MieuxTrierANantes.store.TrisacStore": [],
+  "MieuxTrierANantes.utils.Functions": [],
   "MieuxTrierANantes.view.Main": [
     "widget.main"
+  ],
+  "MieuxTrierANantes.view.SettingsView": [
+    "widget.settingsview"
   ],
   "MieuxTrierANantes.view.about.Description": [
     "widget.xtype_description"

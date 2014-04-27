@@ -1,9 +1,10 @@
-Ext.define('Dinmu.view.Main', {
+Ext.define('MieuxTrierANantes.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
     requires: [
         'Ext.TitleBar',
-        'Ext.Video'
+        'Ext.Video',
+        'MieuxTrierANantes.view.SettingsView'
     ],
     config: {
         tabBarPosition: 'bottom',
@@ -44,7 +45,37 @@ Ext.define('Dinmu.view.Main', {
                         posterUrl: 'http://b.vimeocdn.com/ts/261/062/261062119_640.jpg'
                     }
                 ]
-            }
+            },
+            /*
+	        {
+    	        title: 'Déchets',
+                iconCls: 'action',
+                xtype: 'garbages_xtype'
+	        },{
+    	        title: 'Carte',
+                iconCls: 'action',
+                xtype: 'map_xtype'
+	        },
+	        {
+    	        title: 'Info',
+                iconCls: 'action',
+                xtype: 'info_xtype'
+	        },
+	        {
+    	        title: 'Lieux',
+                iconCls: 'action',
+                xtype: 'places_xtype'
+	        },
+	        {
+    	        title: 'A domicile',
+                iconCls: 'action',
+                xtype: 'home_xtype'
+	        },*/
+	        {
+    	        title: 'Trisac',
+                iconCls: 'action',
+                xtype: 'settingsview'
+	        }
         ]
     }
 });

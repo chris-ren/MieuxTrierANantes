@@ -14,7 +14,12 @@ Ext.application({
     name: 'MieuxTrierANantes',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'MieuxTrierANantes.utils.Functions'
+    ],
+
+    controllers: [
+            'Main'
     ],
 
     views: [
