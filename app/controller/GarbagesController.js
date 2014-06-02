@@ -438,7 +438,7 @@ Ext.define('MieuxTrierANantes.controller.GarbagesController', {
 			// conseilTraduit})
 
 			// Ajout des conseils
-			var nbElementsMax = 2; // la page GarbagesDetails.js affiche 2 éléments
+			var nbElementsMax = 3; // la page GarbagesDetails.js affiche 3 éléments
 			var arsConseils = this.getArrayItemsToShowAdvices(conseils);
 			this.setDatasConseils(this.garbageDetail.items,
 					"garbagesdetails_conseils", "libelle", "bouton",

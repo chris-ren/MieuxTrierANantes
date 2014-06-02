@@ -17,8 +17,87 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
+    controllers: [
+            'Main',
+            'GeoController',
+            'InformationsController',
+            'StructuresController',
+            'GarbagesController',
+            'HomeCollectModsController',
+            'TrisacsController',
+            'CollectModsController'
+    ],
+    
+	models : [
+		'HomeCollectModModel',
+		'StructureModel'
+	],
+			
+	stores : [
+		'HomeCollectModStore', 
+		'TrisacStore',
+		'StructureStore',
+		'StructureGeoStore'
+	],
+
     views: [
-        'Main'
+        'Main',
+        'geo.MapOSM',
+		'geo.Toast',
+			// Accueil
+			// 'welcome.Welcome',
+			// 'welcome.WelcomeList',
+			// 'garbages.Garbages',
+			// Déchets
+			// 'garbages.GarbagesContainer2',
+			'garbages.GarbageButtonsPanel',
+			'garbages.UsualCategoriesButtonsPanel',
+			// 'garbages.AdvicesList',
+			// 'garbages.WasteTreatmentsCategoriesList',
+			// 'garbages.CollectModsList',
+			// 'garbages.InformationsList',
+			// 'garbages.CommentsList',
+			// 'garbages.UsualCategoriesList2',
+			// Modes de collecte
+			'collectMod.CollectMods',
+			'collectMod.CollectModsButtonsPanel',
+			'collectMod.CollectModsDetails',
+			// Commentaires
+			'comments.Comments',
+			'comments.CommentsContainer',
+			'comments.CommentsForm',
+			'comments.CommentsDetails',
+			'comments.CommentsModal',
+			// Calendar,
+			// 'calendar.Calendar',
+			/*'calendar.Ext.ux.TouchCalendarView',*/
+			// Mode de collecte à domicile
+			'homecollectmods.HomeCollectMods',
+			'homecollectmods.HomeCollectModsContainer',
+			'homecollectmods.HomeCollectModsDetails',
+			'homecollectmods.HomeCollectModsForm',
+			'homecollectmods.HomeCollectModsList',
+			// Jeu
+			'game.Guess',
+			// Informations
+			'information.Informations',
+			'information.InformationsButtonsPanel',
+			// A propos
+			'about.Description',
+			// Calendrier
+			// 'calendar.Calendar',
+			// 'calendar.Events',
+			'structures.Structures',
+			'structures.StructuresContainer',
+			'structures.StructuresDetails',
+			'structures.StructuresForm',
+			'structures.StructuresList',
+			// Trisac
+			'trisac.Trisacs',
+			'trisac.TrisacContainer',
+			'trisac.TrisacDetails',
+			'trisac.TrisacForm',
+			'trisac.TrisacList'
     ],
 
     icon: {

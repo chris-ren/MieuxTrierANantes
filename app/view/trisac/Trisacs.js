@@ -3,7 +3,7 @@
  */
 Ext.define('MieuxTrierANantes.view.trisac.Trisacs', {
 			extend : 'Ext.navigation.View',
-			xtype : 'Trisac_xtype',
+			xtype : 'trisac_xtype',
 
 			config : {
 				autoDestroy : false,

@@ -1,5 +1,5 @@
 /**
- * Formulaire des Déchets
+ * Formulaire des distribution des Trisacs
  */
 Ext.define('MieuxTrierANantes.view.trisac.TrisacForm', {
 			extend : 'Ext.form.Panel',
@@ -11,13 +11,11 @@ Ext.define('MieuxTrierANantes.view.trisac.TrisacForm', {
 							name : 'name',
 							label : 'Nom ',
 							id : 'trisacFormText'
-						}
-						, {
+						}, {
 							xtype : 'selectfield',
-							usePicker: false,
+							usePicker : false,
 							label : 'Quartier',
 							id : 'trisacFormSelect'
-							,options : [{}]
 						}]
 			}
 

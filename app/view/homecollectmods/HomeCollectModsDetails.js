@@ -11,7 +11,7 @@ Ext.define('MieuxTrierANantes.view.homecollectmods.HomeCollectModsDetails', {
 			layout : 'vbox',
 			items : [{
 						id : 'homecollectmodsdetails_description',
-						tpl : "<b>Adresse</b> : {dcv}{ci}<br/>{mco}{jcprefixe} {jct} {jcbb} {jcbj} </b>",
+						tpl : "<b>Adresse</b> : {dcv}{ci}<br/>{mco}{jcprefixe} {jct} {jcbb} {jcbj} </b><br/><br/><b>Source</b> : <font color=red>{src}</font></I><br/><br/>",
 						data : {
 							image : ""
 						}

@@ -7,15 +7,10 @@ Ext.define('MieuxTrierANantes.view.trisac.TrisacDetails', {
 		layout : 'vbox',
 		// le template est modifié dans le controlleur
 
-		// tpl : '',
-		// record : null
-		//layout : 'vbox',
-		//tpl : '',
 		tpl : '',
 		html: '',
     	scrollable: true,
     	styleHtmlContent: true
-		// record : null
 	}
 
 });

@@ -10,7 +10,7 @@ Ext.define('MieuxTrierANantes.view.Main', {
         tabBarPosition: 'bottom',
 
         items: [
-            {
+            /*{
                 title: 'Welcome',
                 iconCls: 'home',
 
@@ -45,13 +45,14 @@ Ext.define('MieuxTrierANantes.view.Main', {
                         posterUrl: 'http://b.vimeocdn.com/ts/261/062/261062119_640.jpg'
                     }
                 ]
-            },
-            /*
+            },*/
 	        {
     	        title: 'Déchets',
                 iconCls: 'action',
                 xtype: 'garbages_xtype'
-	        },{
+	        },
+	        
+	        {
     	        title: 'Carte',
                 iconCls: 'action',
                 xtype: 'map_xtype'
@@ -64,17 +65,17 @@ Ext.define('MieuxTrierANantes.view.Main', {
 	        {
     	        title: 'Lieux',
                 iconCls: 'action',
-                xtype: 'places_xtype'
+                xtype: 'structuresView_xtype'
 	        },
 	        {
     	        title: 'A domicile',
                 iconCls: 'action',
                 xtype: 'home_xtype'
-	        },*/
+	        },
 	        {
     	        title: 'Trisac',
                 iconCls: 'action',
-                xtype: 'settingsview'
+                xtype: 'trisac_xtype'
 	        }
         ]
     }

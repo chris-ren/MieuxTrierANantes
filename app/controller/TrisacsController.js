@@ -6,7 +6,7 @@ Ext.define("MieuxTrierANantes.controller.TrisacsController", {
 
 	config : {
 		refs : {
-			structuresView : "Trisac_xtype",
+			structuresView : "trisac_xtype",
 			trisacList : "TrisacList_xtype",
 			trisacDetail : "TrisacDetails_xtype",
 			trisacForm : "TrisacForm_xtype",
@@ -89,19 +89,10 @@ Ext.define("MieuxTrierANantes.controller.TrisacsController", {
 	filterElements : function() {
 		var text = this.getTrisacFormText();
 		var selectQuartier = this.getTrisacFormSelect();
+		/* CRN_MIGRATION
 		var store = this.getTrisacList().getStore();
-
 		if (store != null) {
-			/*
-			 * store.clearFilter(true); store.filter([{ property :
-			 * "modesCollecte", value : /modco_distrisac/g }, { filterFn :
-			 * function(item) { return item.get("libelle") != null &&
-			 * item.get("libelle").indexOf(text .getValue()) != -1; } }, {
-			 * filterFn : function(item) { return (item.get("quartier") != null &&
-			 * (item .get("quartier") === "all" || item .get("quartier")
-			 * .indexOf(selectQuartier.getValue()) != -1)); } }]);
-			 */
-
+		
 			// FIXME : Ceci est un traitement trop long
 			store.clearFilter(true);
 			// Filtrer sans casse, en cherchant la chaine dans le nom, en filtrant sur la catégorie var
@@ -121,7 +112,7 @@ Ext.define("MieuxTrierANantes.controller.TrisacsController", {
 			});
 			store.filter(filterHomeCollectMod);
 
-		}
+		}*/
 
 	}
 

@@ -6,7 +6,7 @@
  */
 Ext.define('MieuxTrierANantes.view.geo.MapOSM', {
 	extend : 'MieuxTrierANantes.view.geo.LeafletMap',
-	xtype : 'vanmaposm',
+	xtype : 'map_xtype',
 	config : {
 		title : 'Carte',
 		iconCls : 'locate'

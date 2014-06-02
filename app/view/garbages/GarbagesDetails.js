@@ -135,7 +135,22 @@ Ext.define('MieuxTrierANantes.view.garbages.GarbagesDetails', {
 					}, {
 						xtype : 'label',
 						id : "garbagesdetails_conseils_2_bouton",
-						text : "Voir <i>fiche {libelle}</i>"					}]
+						text : "Voir <i>fiche {libelle}</i>"
+					}]
+		}, {
+			// Le troisième conseil
+			xtype : 'container',
+			layout : 'vbox',
+			width : '100%',
+			id : "garbagesdetails_conseils_3",
+			items : [{
+						tpl : "<br/><br/><b>{libelle}</b><br/>{description}<br/>",
+						id : "garbagesdetails_conseils_3_libelle"
+					}, {
+						xtype : 'label',
+						id : "garbagesdetails_conseils_3_bouton",
+						text : "Voir <i>fiche {libelle}</i>"
+					}]
 		}, {
 			id : "garbagesdetails_commentaires"
 		}, {

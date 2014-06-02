@@ -211,7 +211,7 @@ Ext.define('MieuxTrierANantes.controller.AbstractStructuresController', {
 					value : "Ile de Nantes"
 				}, {
 					text : "Malakoff - Saint-Donatien",
-					value : "Malakoff Saint-Donatien"
+					value : "Malakoff Saint Donatien"
 				}, {
 					text : "Nantes Erdre",
 					value : "Nantes Erdre"

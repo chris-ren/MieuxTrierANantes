@@ -5,13 +5,13 @@
 	 * This is the name of your application, which is displayed on the device when the app is installed. On IOS, this should match
 	 * the name of your application in the Apple Provisioning Portal.
 	 */
-	"applicationName":"Dinmu",
+	"applicationName":"MieuxTrierANantes",
 
 	/**
 	 * @cfg  applicationId
 	 * This is the name namespace for your application. On IOS, this should match the name of your application in the Apple Provisioning Portal.
 	 */
-	"applicationId":"Dinmu",
+	"applicationId":"com.MieuxVivreANantes.MieuxTrierANantes",
 
 	/**
 	 * @cfg  bundleSeedId
@@ -82,7 +82,7 @@
 	 *  - Android
 	 *  - AndroidEmulator
 	 */
-	"platform":"iOSSimulator",
+	"platform":"Android",
 
 	/**
 	 * @cfg  deviceType
@@ -103,7 +103,7 @@
 	 * This is the location of your certificate.
 	 * This is required when you are developing for Android or you are developing on Windows.
 	 */
-	"certificatePath":"/path/to/certificate.file",
+	"certificatePath":"./debug.keystore",
 
 	/**
 	 * @cfg  certificateAlias
@@ -116,12 +116,13 @@
 	 *
 	 * When using a certificatePath on Windows, you do not need to specify this.
 	 */
-	"certificateAlias":"",
+	// CRN : la valeur n'a pas d'importance
+	"certificateAlias":"mieuxvivreanantes",
 	/**
 	 * @cfg  certificatePassword
 	 * The password which was specified during certificate export
 	 */
-	"certificatePassword":"",
+	"certificatePassword":"android",
 	/**
 	 * @cfg  provisionProfile
 	 * The path to the provision profile (APP_NAME.mobileprovision) which you can create and then download from Apple's provisioning portal
@@ -136,7 +137,7 @@
 	 * @cfg  sdkPath
 	 * This is the path to the Android SDK, if you are developing an Android application.
 	 */
-	"sdkPath":"/path/to/android-sdk",
+	"sdkPath":"C:\\dev\\android-sdk\\sdk",
 
 	/**
 	 * @cfg  androidAPILevel
@@ -153,12 +154,9 @@
 	"permissions":[
             "INTERNET",
             "ACCESS_NETWORK_STATE",
-            "CAMERA",
-            "VIBRATE",
             "ACCESS_FINE_LOCATION",
-            "ACCESS_COARSE_LOCATION",
-            "CALL_PHONE"
-        ],
+            "ACCESS_COARSE_LOCATION"
+    ],
 
 	/**
 	 * @cfg {Array[String]} orientations

@@ -3,8 +3,7 @@
  */
 Ext.define('MieuxTrierANantes.view.homecollectmods.HomeCollectMods', {
 			extend : 'Ext.navigation.View',
-			xtype : 'HomeCollectModsView',
-
+			xtype : 'home_xtype',
 			config : {
 				autoDestroy : false,
 				iconCls : 'homecollectclass', // icône en forme de camion

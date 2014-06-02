@@ -104,7 +104,8 @@ Ext.define('MieuxTrierANantes.controller.Main', {
     * to show and hide the back button and update the titlebar
     */
     onCarouselChange: function(carousel, newVal, oldVal) {
-        if (newVal.getItemId() == "mainview") {
+    	// CRN
+        /*if (newVal.getItemId() == "mainview") {
             this.getBtnBack().hide();
             this.getBtnSettings().show();
 
@@ -114,7 +115,7 @@ Ext.define('MieuxTrierANantes.controller.Main', {
             this.getBtnSettings().hide();
 
             Ext.ComponentQuery.query('titlebar')[0].setTitle('Settings');
-        }
+        }*/
     },
     /* Called when the Application is launched.
      * Shows the mainview on load and load the correct data.

@@ -53,8 +53,8 @@ Ext.define('MieuxTrierANantes.view.garbages.GarbagesForm', {
 										text : "Vêtements / tissu",
 										value : "cu_vetementtissu"
 									}, {
-										text : "Encombrants",
-										value : "cu_encombrant"
+										text : "Encombrants / électronique",
+										value : "cu_encombrantelectronique"
 									}, {
 										text : "Toxique",
 										value : "cu_toxique"

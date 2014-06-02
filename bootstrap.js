@@ -1855,13 +1855,13 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.mapContainer"
   ],
   "MieuxTrierANantes.view.geo.MapOSM": [
-    "widget.vanmaposm"
+    "widget.map_xtype"
   ],
   "MieuxTrierANantes.view.geo.Toast": [
     "widget.vantoast"
   ],
   "MieuxTrierANantes.view.homecollectmods.HomeCollectMods": [
-    "widget.HomeCollectModsView"
+    "widget.home_xtype"
   ],
   "MieuxTrierANantes.view.homecollectmods.HomeCollectModsContainer": [
     "widget.HomeCollectModsContainer"
@@ -1876,7 +1876,7 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.homecollectmodslist_xtype"
   ],
   "MieuxTrierANantes.view.information.Informations": [
-    "widget.informations"
+    "widget.info_xtype"
   ],
   "MieuxTrierANantes.view.information.InformationsButtonsPanel": [
     "widget.informationsbuttonslist_xtype"
@@ -1924,6 +1924,6 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.TrisacList_xtype"
   ],
   "MieuxTrierANantes.view.trisac.Trisacs": [
-    "widget.Trisac_xtype"
+    "widget.trisac_xtype"
   ]
 });
