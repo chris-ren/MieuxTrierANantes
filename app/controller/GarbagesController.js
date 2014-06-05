@@ -196,7 +196,7 @@ Ext.define('MieuxTrierANantes.controller.GarbagesController', {
 		// this.showDetails(button._data["code"]);
 		// }
 		this.showDetails(button._data["code"]);
-		this.saveBackButton("garbages_xtype", true);
+		// this.saveBackButton("garbages_xtype", true);
 	},
 
 	/**
@@ -210,7 +210,7 @@ Ext.define('MieuxTrierANantes.controller.GarbagesController', {
 		this.getGarbagesFormSelect().setValue(collectModId);
 		this.filter();
 		this.getGarbagesView().push(this.garbagesButtonsPanel);
-		this.saveBackButton("garbages_xtype", true);
+		// this.saveBackButton("garbages_xtype", true);
 	},
 
 	showSubCategory : function(collectModId) {

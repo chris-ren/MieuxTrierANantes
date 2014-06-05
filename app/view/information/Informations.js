@@ -5,12 +5,12 @@
  */
 Ext.define('MieuxTrierANantes.view.information.Informations', {
 			extend : 'Ext.NavigationView',
-			xtype : 'info_xtype',
+			xtype : 'informations_xtype',
 			config : {
 				// Titre dans barre de bouton principale
 				title : 'Fiches',
 				// Icone dans la barre de bouton principale
-				iconCls : 'livreclass', // icône en forme de 'i'
+				
 				scrollable : true,
 				items : [{
 							xtype : 'informationsbuttonslist_xtype'

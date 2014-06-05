@@ -6,7 +6,7 @@ Ext.define('MieuxTrierANantes.controller.HomeCollectModsController', {
 
 	config : {
 		refs : {
-			homeCollectModsView : 'HomeCollectModsView',
+			homeCollectModsView : 'homecollectmods_xtype',
 			homeCollectModsList : 'homecollectmodslist_xtype',
 			homeCollectModDetail : 'homecollectmodsdetails_xtype',
 			homeCollectModsForm : 'homecollectmodsform_xtype',

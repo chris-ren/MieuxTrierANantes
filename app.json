@@ -53,6 +53,9 @@
 			"path" : "touch/sencha-touch.js",
 			"x-bootstrap" : true
 		}, {
+			"path" : "resources/lib/leaftmap/leaflet.js",
+			"x-bootstrap" : true
+		}, {
 			"path" : "resources/lib/mieuxtrieranantes/common.js",
 			"x-bootstrap" : true
 		}, {
@@ -107,6 +110,12 @@
 	"css" : [{
 			"path" : "resources/css/app.css",
 			"update" : "delta"
+		},
+		{
+			"path" : "resources/css/mieuxtrieranantes.css"
+		},
+		{
+			"path" : "resources/css/leaflet.css"
 		}
 	],
 

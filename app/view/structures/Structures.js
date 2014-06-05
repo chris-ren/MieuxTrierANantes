@@ -3,8 +3,8 @@
  */
 Ext.define('MieuxTrierANantes.view.structures.Structures', {
 			extend : 'Ext.navigation.View',
-			xtype : 'structuresView_xtype',
-			id : 'structuresView_xtype',
+			xtype : 'structuresview_xtype',
+			// id : 'structuresView_xtype',
 			config : {
 				autoDestroy : false,
 				// iconCls : 'structureclass',

@@ -5,7 +5,7 @@ Ext.define('MieuxTrierANantes.controller.InformationsController', {
 
 			config : {
 				refs : {
-					informations : 'info_xtype',
+					informations : 'informations_xtype',
 					informationsList : 'informationsbuttonslist_xtype'
 				},
 				control : {

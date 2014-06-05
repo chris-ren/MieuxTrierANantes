@@ -14,7 +14,7 @@ Ext.define('MieuxTrierANantes.view.geo.Map', {
 				mapOptions : {
 					streetViewControl : false,
 					disableDefaultUI : true,
-					mapTypeId : google.maps.MapTypeId.ROADMAP
+					mapTypeId : 'google.maps.MapTypeId.ROADMAP'
 				}
 			}
 		});

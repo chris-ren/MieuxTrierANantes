@@ -6,7 +6,7 @@ Ext.define('MieuxTrierANantes.store.HomeCollectModStore', {
 				model : 'MieuxTrierANantes.model.HomeCollectModModel',
 				proxy : {
 					type : 'ajax',
-					url : 'data/modes_collecte_a_domicile.json',
+					url : 'resources/datas/modes_collecte_a_domicile.json',
 					reader : {
 						type : 'json',
 						rootProperty : 'modes_collecte_a_domicile'

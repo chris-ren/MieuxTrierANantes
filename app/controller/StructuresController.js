@@ -6,7 +6,7 @@ Ext.define("MieuxTrierANantes.controller.StructuresController", {
 
 	config : {
 		refs : {
-			structuresView : "structuresView_xtype",
+			structuresView : "structuresview_xtype",
 			structuresList : "structuresList_xtype",
 			structuresDetail : "structuresDetails_xtype",
 			structuresForm : "structuresForm_xtype",

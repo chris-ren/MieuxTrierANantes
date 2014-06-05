@@ -772,7 +772,6 @@ Ext.ClassManager.addNameAlternateMappings({
   "MieuxTrierANantes.store.StructureGeoStore": [],
   "MieuxTrierANantes.store.StructureStore": [],
   "MieuxTrierANantes.store.TrisacStore": [],
-  "MieuxTrierANantes.utils.Functions": [],
   "MieuxTrierANantes.view.Main": [],
   "MieuxTrierANantes.view.SettingsView": [],
   "MieuxTrierANantes.view.about.Description": [],
@@ -791,9 +790,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "MieuxTrierANantes.view.garbages.GarbagesDetails": [],
   "MieuxTrierANantes.view.garbages.GarbagesForm": [],
   "MieuxTrierANantes.view.garbages.UsualCategoriesButtonsPanel": [],
-  "MieuxTrierANantes.view.geo.LeafletMap": [],
   "MieuxTrierANantes.view.geo.Map": [],
-  "MieuxTrierANantes.view.geo.MapContainer": [],
   "MieuxTrierANantes.view.geo.MapOSM": [],
   "MieuxTrierANantes.view.geo.Toast": [],
   "MieuxTrierANantes.view.homecollectmods.HomeCollectMods": [],
@@ -1790,7 +1787,6 @@ Ext.ClassManager.addNameAliasMappings({
   "MieuxTrierANantes.store.StructureGeoStore": [],
   "MieuxTrierANantes.store.StructureStore": [],
   "MieuxTrierANantes.store.TrisacStore": [],
-  "MieuxTrierANantes.utils.Functions": [],
   "MieuxTrierANantes.view.Main": [
     "widget.main"
   ],
@@ -1845,23 +1841,17 @@ Ext.ClassManager.addNameAliasMappings({
   "MieuxTrierANantes.view.garbages.UsualCategoriesButtonsPanel": [
     "widget.usualCategoriesButtonsPanel_xtype"
   ],
-  "MieuxTrierANantes.view.geo.LeafletMap": [
-    "widget.leafletmap"
-  ],
   "MieuxTrierANantes.view.geo.Map": [
     "widget.vanmap"
   ],
-  "MieuxTrierANantes.view.geo.MapContainer": [
-    "widget.mapContainer"
-  ],
   "MieuxTrierANantes.view.geo.MapOSM": [
-    "widget.map_xtype"
+    "widget.vanmaposm"
   ],
   "MieuxTrierANantes.view.geo.Toast": [
     "widget.vantoast"
   ],
   "MieuxTrierANantes.view.homecollectmods.HomeCollectMods": [
-    "widget.home_xtype"
+    "widget.homecollectmods_xtype"
   ],
   "MieuxTrierANantes.view.homecollectmods.HomeCollectModsContainer": [
     "widget.HomeCollectModsContainer"
@@ -1876,7 +1866,7 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.homecollectmodslist_xtype"
   ],
   "MieuxTrierANantes.view.information.Informations": [
-    "widget.info_xtype"
+    "widget.informations_xtype"
   ],
   "MieuxTrierANantes.view.information.InformationsButtonsPanel": [
     "widget.informationsbuttonslist_xtype"
@@ -1897,7 +1887,7 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.reusesList_xtype"
   ],
   "MieuxTrierANantes.view.structures.Structures": [
-    "widget.structuresView_xtype"
+    "widget.structuresview_xtype"
   ],
   "MieuxTrierANantes.view.structures.StructuresContainer": [
     "widget.structuresContainer_xtype"

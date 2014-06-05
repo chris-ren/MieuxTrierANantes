@@ -10,8 +10,13 @@
 .structureclass {
 	-webkit-mask-box-image: url('../icons/icone_direction.png');
 }
+/*  background-image: url(../icons/icone_livre.png);
+	background-repeat: no-repeat;
+	-webkit-mask-box-image: url('../icons/icone_livre.png'); 
+*/
 .livreclass {
-	-webkit-mask-box-image: url('../icons/icone_livre.png');
+	background-image: url(../icons/icone_livre.png);
+	background-repeat: no-repeat;
 }
 .searchclass {
 	-webkit-mask-box-image: url('../icons/search.png');

@@ -48,33 +48,33 @@ Ext.define('MieuxTrierANantes.view.Main', {
             },*/
 	        {
     	        title: 'Déchets',
-                iconCls: 'action',
+                iconCls: 'trash',
                 xtype: 'garbages_xtype'
 	        },
 	        
 	        {
     	        title: 'Carte',
-                iconCls: 'action',
-                xtype: 'map_xtype'
+                iconCls: 'maps',
+                xtype: 'vanmaposm'
 	        },
 	        {
     	        title: 'Info',
-                iconCls: 'action',
-                xtype: 'info_xtype'
+               iconCls : 'info', // icône en forme de 'i'
+                xtype: 'informations_xtype'
 	        },
 	        {
     	        title: 'Lieux',
                 iconCls: 'action',
-                xtype: 'structuresView_xtype'
+                xtype: 'structuresview_xtype'
 	        },
 	        {
     	        title: 'A domicile',
-                iconCls: 'action',
-                xtype: 'home_xtype'
+                iconCls: 'home',
+                xtype: 'homecollectmods_xtype'
 	        },
 	        {
     	        title: 'Trisac',
-                iconCls: 'action',
+                iconCls: 'add',
                 xtype: 'trisac_xtype'
 	        }
         ]

@@ -70,7 +70,7 @@ Ext.define('MieuxTrierANantes.controller.Main', {
         } else {
             store.add(model.getData());
             store.sync();
-            MieuxTrierANantes.utils.Functions.loadData();
+           //  MieuxTrierANantes.utils.Functions.loadData();
         }
 
         Ext.Viewport.unmask();
@@ -121,7 +121,7 @@ Ext.define('MieuxTrierANantes.controller.Main', {
      * Shows the mainview on load and load the correct data.
      */
     launch: function(app) {
-        this.getMainView().setActiveItem(1);
-        MieuxTrierANantes.utils.Functions.loadData();
+        this.getMainView().setActiveItem(0);
+        // MieuxTrierANantes.utils.Functions.loadData();
     }
 });

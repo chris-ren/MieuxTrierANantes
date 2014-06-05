@@ -43,6 +43,7 @@ Ext.application({
     views: [
         'Main',
         'geo.MapOSM',
+		'geo.Map',
 		'geo.Toast',
 			// Accueil
 			// 'welcome.Welcome',

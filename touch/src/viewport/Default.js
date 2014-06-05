@@ -368,11 +368,13 @@ Ext.define('Ext.viewport.Default', {
     doBlurInput: function(e) {
         var target = e.target,
             focusedElement = this.focusedElement;
+            
+        // CRN
         //In IE9/10 browser window loses focus and becomes inactive if focused element is <body>. So we shouldn't call blur for <body>
-        if (focusedElement && focusedElement.nodeName.toUpperCase() != 'BODY' && !this.isInputRegex.test(target.tagName)) {
-            delete this.focusedElement;
-            focusedElement.blur();
-        }
+        // if (focusedElement && focusedElement.nodeName.toUpperCase() != 'BODY' && !this.isInputRegex.test(target.tagName)) {
+        //     delete this.focusedElement;
+        //     focusedElement.blur();
+        // }
     },
 
     doPreventPanning: function(e) {
