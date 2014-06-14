@@ -8,14 +8,14 @@ Ext.define('MieuxTrierANantes.view.information.InformationsButtonsPanel', {
 	extend : 'Ext.Container',
 	xtype : 'informationsbuttonslist_xtype',
 	config : {
-		title : 'Fiches',
-		iconCls : 'action',
-		scrollable : true,
+		title : "Fiches",
 		layout : {
 			type : 'vbox'
 		},
+		// CRN : pour la migration vers 2.3, on desactive ceci qui cache  la page sous IE
 		scrollable : true,
-		items : [{
+		items : [
+			{
 			layout : {
 				type : 'hbox',
 				align : 'strech'

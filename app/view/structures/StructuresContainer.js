@@ -8,7 +8,7 @@ Ext.define('MieuxTrierANantes.view.structures.StructuresContainer', {
 
 			config : {
 				layout : 'vbox',
-				title : 'Lieux de collecte et récup.',
+				title : 'Lieux de collecte et réemploi',
 				items : [/*{
 							xtype : 'titlebar',
 							docked : 'top'

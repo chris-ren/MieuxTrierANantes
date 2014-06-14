@@ -146,6 +146,8 @@
 	 */
 	"resources" : [
 		"resources/images",
+		"resources/lib",
+		"resources/datas",
 		"resources/icons",
 		"resources/startup"
 	],

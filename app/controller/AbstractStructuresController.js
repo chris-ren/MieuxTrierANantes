@@ -190,37 +190,37 @@ Ext.define('MieuxTrierANantes.controller.AbstractStructuresController', {
 					value : 'all'
 				}, {
 					text : "Bellevue Chantenay Sainte-Anne",
-					value : "Bellevue Chantenay Sainte Anne"
+					value : "qbcsa"
 				}, {
 					text : "Breil Barberie",
-					value : "Breil Barberie"
+					value : "qbb"
 				}, {
 					text : "Centre Ville",
-					value : "Centre Ville"
+					value : "qcv"
 				}, {
 					text : "Dervallières Zola",
-					value : "Dervallieres Zola"
+					value : "qdz"
 				}, {
 					text : "Doulon Bottière",
-					value : "Doulon Bottiere"
+					value : "qdb"
 				}, {
 					text : "Hauts Pavés - Saint Félix",
-					value : "Hauts Paves Saint-Felix"
+					value : "qhpsf"
 				}, {
 					text : "Ile De Nantes",
-					value : "Ile de Nantes"
+					value : "qidn"
 				}, {
 					text : "Malakoff - Saint-Donatien",
-					value : "Malakoff Saint Donatien"
+					value : "qmsd"
 				}, {
 					text : "Nantes Erdre",
-					value : "Nantes Erdre"
+					value : "qne"
 				}, {
 					text : "Nantes Nord",
-					value : "Nantes Nord"
+					value : "qnn"
 				}, {
 					text : "Nantes Sud",
-					value : "Nantes Sud"
+					value : "qns"
 				}]);
 	},
 
@@ -240,7 +240,7 @@ Ext.define('MieuxTrierANantes.controller.AbstractStructuresController', {
 					value : "Hors Nantes sud Loire"
 				}, {
 					text : "Hors Nantes : Nord Loire",
-					value : "Hors Nantes nord Loire"
+					value : "hnnl"
 				}]);
 
 	}
