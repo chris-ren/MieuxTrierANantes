@@ -195,6 +195,60 @@ Ext.define('MieuxTrierANantes.view.information.InformationsButtonsPanel', {
 				xtype : "button", height : '100px', width : '33%', 
 				tpl : "<center><font size='2'>{label}</font><br/><img src='resources/images/{image}' /></center>", data : { label:"", image : ""}
 			}]
+		}, {
+			layout : {
+				type : 'hbox',
+				align : 'strech'
+			},
+			items : [{
+				id : "informationsButtonsPanel_31",
+				xtype : "button", height : '100px', width : '33%', 
+				tpl : "<center><font size='2'>{label}</font><br/><img src='resources/images/{image}' /></center>", data : { label:"", image : ""}
+			}, {
+				id : "informationsButtonsPanel_32",
+				xtype : "button", height : '100px', width : '33%', 
+				tpl : "<center><font size='2'>{label}</font><br/><img src='resources/images/{image}' /></center>", data : { label:"", image : ""}
+			}, {
+				id : "informationsButtonsPanel_33",
+				xtype : "button", height : '100px', width : '33%', 
+				tpl : "<center><font size='2'>{label}</font><br/><img src='resources/images/{image}' /></center>", data : { label:"", image : ""}
+			}]
+		}, {
+			layout : {
+				type : 'hbox',
+				align : 'strech'
+			},
+			items : [{
+				id : "informationsButtonsPanel_34",
+				xtype : "button", height : '100px', width : '33%', 
+				tpl : "<center><font size='2'>{label}</font><br/><img src='resources/images/{image}' /></center>", data : { label:"", image : ""}
+			}, {
+				id : "informationsButtonsPanel_35",
+				xtype : "button", height : '100px', width : '33%', 
+				tpl : "<center><font size='2'>{label}</font><br/><img src='resources/images/{image}' /></center>", data : { label:"", image : ""}
+			}, {
+				id : "informationsButtonsPanel_36",
+				xtype : "button", height : '100px', width : '33%', 
+				tpl : "<center><font size='2'>{label}</font><br/><img src='resources/images/{image}' /></center>", data : { label:"", image : ""}
+			}]
+		}, {
+			layout : {
+				type : 'hbox',
+				align : 'strech'
+			},
+			items : [{
+				id : "informationsButtonsPanel_37",
+				xtype : "button", height : '100px', width : '33%', 
+				tpl : "<center><font size='2'>{label}</font><br/><img src='resources/images/{image}' /></center>", data : { label:"", image : ""}
+			}, {
+				id : "informationsButtonsPanel_38",
+				xtype : "button", height : '100px', width : '33%', 
+				tpl : "<center><font size='2'>{label}</font><br/><img src='resources/images/{image}' /></center>", data : { label:"", image : ""}
+			}, {
+				id : "informationsButtonsPanel_39",
+				xtype : "button", height : '100px', width : '33%', 
+				tpl : "<center><font size='2'>{label}</font><br/><img src='resources/images/{image}' /></center>", data : { label:"", image : ""}
+			}]
 		}]
 		}
 		});

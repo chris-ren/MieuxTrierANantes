@@ -52,7 +52,7 @@
 		}, {
 			"path" : "touch/sencha-touch.js",
 			"x-bootstrap" : true
-		}, {
+		}/*, {
 			"path" : "resources/lib/leaftmap/leaflet.js",
 			"x-bootstrap" : true
 		}, {
@@ -88,7 +88,7 @@
 		}, {
 			"path" : "resources/datas/InfosDatas.js",
 			"x-bootstrap" : true
-		}
+		}*/
 	],
 
 	/**
